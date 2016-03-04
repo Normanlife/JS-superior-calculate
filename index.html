@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="calculate.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="screen" id="screen">
+            <!-- 结果显示面板 -->
+            
+                <input type="text" readonly="readonly" id="result-screen" value="0">
+            
+        </div>
+        <!--<form name="ff">-->
+        <table class="tablestyle" cellpadding="1">
+            <tr>
+                <td width="100" height="50">
+                    <button type="button" value="1" class="number">1</button>
+                </td>
+                <td width="100">
+                    <button type="button" value="2" class="number">2</button>
+                </td>
+                <td width="100">
+                    <button type="button" value="3" class="number">3</button>
+                </td>
+                <td width="100">
+                    <button type="button" value="+" class="other_fun">+</button>
+                </td>
+                <td width="100">
+                    <!-- <button type="button" value="rest" class="fun_count">求余</button> -->
+                </td>
+                <td width="100" rowspan="2">
+                    <button type="button" value="clean" class="other_fun">清零</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" value="4" class="number">4</button>
+                </td>
+                <td>
+                    <button type="button" value="5" class="number">5</button>
+                </td>
+                <td>
+                    <button type="button" value="6" class="number">6</button>
+                </td>
+                <td>
+                    <button type="button" value="-" class="other_fun">-</button>
+                </td>
+                <td>
+                    <button type="button" value="cos" class="other_fun">cos</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" value="7" class="number">7</button>
+                </td>
+                <td>
+                    <button type="button" value="8" class="number">8</button>
+                </td>
+                <td>
+                    <button type="button" value="9" class="number">9</button>
+                </td>
+                <td>
+                    <button type="button" value="*" class="other_fun">*</button>
+                </td>
+                <td>
+                    <button type="button" value="sin" class="other_fun">sin</button>
+                </td>
+                <td>
+                    <button type="button" value="pow" class="other_fun">x^2</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" value="point" class="other_fun">.</button>
+                </td>
+                <td>
+                    <button type="button" value="0" class="number">0</button>
+                </td>
+                <td>
+                    <button type="button" id="fun_count">=</button>
+                </td>
+                <td>
+                    <button type="button" value="/" class="other_fun">/</button>
+                </td>
+                <td>
+                    <button type="button" value="delete" class="other_fun">delete</button>
+                </td>
+                <td><button type="button" value="sqrt" class="other_fun">√</button></td>
+            </tr>
+        </table>
+        </form>
+    </div>
+    <script src="calculate2.js"></script>
+</body>
+
+</html>
